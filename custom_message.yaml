@@ -7,4 +7,3 @@
     when: filecontent.stdout==""
   - debug: msg="File is not empty"
     when: filecontent.stderr != ""
-
